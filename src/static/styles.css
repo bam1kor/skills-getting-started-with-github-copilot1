@@ -145,6 +145,43 @@ footer {
 
 .participants {
   margin-top: 15px;
+  padding: 15px;
+  border-top: 2px solid #e0e0e0;
+  background-color: #fafafa;
+  border-radius: 0 0 4px 4px;
+}
+
+.participants strong {
+  color: #1a237e;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.participants ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.participants li {
+  padding: 4px 0;
+  color: #555;
+  font-size: 0.9em;
+  position: relative;
+  padding-left: 20px;
+}
+
+.participants li:before {
+  content: "•";
+  color: #1a237e;
+  position: absolute;
+  left: 5px;
+  font-size: 1.2em;
+}
+
+.participants {
+  margin-top: 15px;
   padding: 10px;
   border-top: 1px solid #ddd;
   background-color: #f1f1f1;
